@@ -1,0 +1,46 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.con{
+  padding-top: 125px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+	background-color:rgba(26, 61, 86,0.8);
+}
+.logout{
+  float: right;
+  right: 0px;
+}
+.con h3{
+  font-family: w_tooba;
+  color:#fff
+  
+}
+
+.admin_part {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+  margin: auto;
+}
+
+.admin_part td,.admin_part tr{
+  border: 1px solid #ddd;
+  padding: 8px;
+  height:100px;
+  width:100px;
+  background-color:rgb(26, 61, 86);
+}
+.cantent h4{
+	font-family:w_tooba;
+	}
+.admin_part a{
+    text-decoration: none;
+    text-underline-offset: NONE;
+    color: #fff;
+}

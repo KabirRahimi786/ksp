@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(234, 234, 234);
+}
+
+@font-face {
+  font-family: 'w_tooba';
+  src: url(../font/W_tooba.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'forte';
+  src: url(../font/FORTE.TTF) format('truetype');
+}
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+
+    background-color:rgb(26, 61, 86);
+    margin: 0 auto; 
+    padding-top: 10px; 
+    border-bottom: 1px solid #fff;
+}
+.header h3{
+    text-align:center;
+    color:#fff;
+    font-family:w_tooba;
+    }
+    .header H3 span{
+          color: rgb(233, 154, 8);
+     }
+     .header h5{
+      text-align: center;
+      color:#fff;
+      font-family: forte;
+      direction: ltr;
+      }
+      .header H5 span{
+        color: rgb(233, 154, 8);
+    }
+.menu{
+    position: fixed;
+    margin-top: 80px;
+    width: 100%;
+
+    background-color:rgb(26, 61, 86);
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    padding: 0 !important;
+}
+
+.menu ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0 !important;
+    overflow: hidden;
+    font-family:w_tooba;
+    height: 40px;
+  }
+   
+  .menu li {
+    float: right;
+    border-left:1px solid #bbb;
+    
+  }
+  
+  .menu li:last-child {
+    border-right: none;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover:not(.active) {
+    background-color: #3a8699;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .login_part{
+    background-color:rgb(26, 61, 86);
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    padding: 0 !important;
+}
+.footer{
+  height: 120px;
+  border:1px solid #fff;
+  background-color:rgb(26, 61, 86);
+  margin:1px auto;	
+  text-align:center;
+  padding: 10px;
+}
+.footer p{
+  font-family:w_tooba;
+  color:#fff;
+}
+.footer hr{
+  color: #fff;
+}
+.pic{
+  float: left;
+}
+.pic1{
+  float: right;
+}
+.communication {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.communication td{
+  width: 33%;
+}

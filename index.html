@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <link rel="stylesheet" href="admin.css">
+    <link href="header.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/f73c98d074.js" crossorigin="anonymous"></script>
+
+    <title>صفحه ادمین</title>
+</head>
+<body>
+<div class="container-fluid header">
+    <div class="row">
+      <div class="col-md-12 ">
+      <H3> مرکز انکشاف مهارت های تجاری <span>جوانان</span>  اکتید ولسوالی خواجه سبز پوش </H3>
+        <h5>02FML_YBDC ( <span>Youth</span> and Business Development Center )</h5>
+      </div>
+    </div>
+</div>
+<!---menu part------------------------------------------------------------>
+<div class="container-fluid menu">
+    <div class="row">
+      <div class="col-md-11 text-white">
+        <ul>
+            <li><a  href="../index.php">صفحه اصلی</a></li>
+            <li><a  href="../maimana/home.php">میمنه</a></li>
+            <li><a class="active"  href="home.php">خواجه سبزپوش</a></li>
+            <li><a  href="../shirintagab/home.php"> شیرین تگاب</a></li>
+            <li><a href="../da/home.php"> دولت آباد</a></li>
+            <li><a href="../andkhoy/home.php"> اندخوی</a></li>
+            <li><a href="../almar/home.php"> المار</a></li>
+            <li><a href="../qaisar/home.php"> قیصار</a></li>
+            <li><a href="../belcheragh/home.php"> بلچراغ</a></li>
+            <li><a href="../gurziwan/home.php"> گرزیوان</a></li>
+          </ul> 
+      </div>
+    </div>  
+</div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 con">
+          <div class="logout">
+            <a href="logout.php">
+              <i class="fa-solid fa-right-from-bracket" style="font-size: 30px;color:#fff;"></i>
+            </a>
+          </div>
+            <h3>صفحه ادمین</h3>
+            
+          <table class="admin_part" >
+            <tr>
+              <td>
+                  <a href="add_activity.php">
+                <i class="fa-solid fa-circle-plus" 												style="font-size:30px;color:#fff;"></i>
+                <P>افزودن فعالیت</P>
+              </a> 
+              </td>
+              
+              <td>
+              <a href="manage_teacher.php">
+              <i class="fa-solid fa-person-chalkboard" style="font-size: 30px;color:#fff;"></i>    
+              
+          <P> مدیریت بیوگرافی اساتید</P>
+          </a> 
+              </td>
+              
+              <td>
+              <a href="manage_activity.php">
+              <i class="fa-solid fa-edit" style="font-size: 30px;color:#fff;"></i>
+          
+                <P> مدیریت فعالیت ها</P>
+              </a> 
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+              <a href="add_student.php">
+              <i class="fa-solid fa-people-roof" style="font-size: 30px;color:#fff;"></i>
+                <P>  ثبت شاگردان</P>
+                </a> 
+              </td>
+              <td>
+              <a href="add_media.php">
+                <i class="fa-solid fa-people-group" style="font-size: 30px;color:#fff;"></i>
+            <P>ثبت اعضای مدیا</P>
+            </a> 
+              </td>
+              <td>
+              <a href="add_sport_member.php">
+              <i class="fa-solid fa-futbol" style="font-size: 30px;color:#fff;"></i>
+                <P>ثبت اعضای تیم ورزشی</P>
+                </a> 
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+              <a href="add_book.php">
+              <i class="fa-solid fa-book-open-reader"style="font-size: 30px;color:#fff;"></i>
+              <P>افزودن کتاب به کتابخانه </P>
+              </a> 
+              </td>
+              
+              <td>
+              <a href="library_management.php">
+            <i class="fa-solid fa-book"
+              style="font-size: 30px;color:#fff;"></i>
+              <P> مدیریت کتابخانه </P>
+              </a> 
+              </td>
+              
+              
+              <td>
+              <a href="add_lesson_material.php">
+            <i class="fa-solid fa-file"
+              style="font-size: 30px;color:#fff;"></i>
+              <P> افزودن مواد درسی </P>
+              </a> 
+              </td>
+            
+            </tr>
+
+            <tr>
+            <td>
+              <a href="manage_material.php">
+            <i class="fa-solid fa-edit"
+              style="font-size: 30px;color:#fff;"></i>
+              <P>مدیریت مواد های درسی </P>
+              </a> 
+              </td>
+              
+              <td>
+              <a href="add_student_parent.php">
+              <i class="fa-solid fa-hands-holding-child"style="font-size: 30px;color:#fff;"></i>
+              <P>ثبت اعضای اولیای طلاب </P>
+              </a> 
+              </td>
+              
+              <td>
+              <a href="manage_user.php">
+              <i class="fa-solid fa-user"
+                  style="font-size: 30px;color:#fff;"></i>
+              <P>ایجاد و مدیریت حساب کاربری</P>
+              </a> 
+              </td>
+            
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+<?php include("footer.php");?>
+
+</body>
+</html>
